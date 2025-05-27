@@ -1,0 +1,125 @@
+<!--
+    Atividade 27/05 - CSS básico
+Questão 1:
+Descreva abaixo o que o código css faz:
+a)
+.caixa {
+  background-color: lightblue;
+  width: 300px;
+  height: 150px;
+  border: 2px solid navy;
+  padding: 20px;
+  margin: 30px;
+  color: darkblue;
+  text-align: center;
+}
+cor de fundo (lightblue),
+tamanho (300px de largura e 150px de altura),
+borda (navy, 2px sólida),
+preenchimento (20px),
+margem (30px),
+cor do texto (darkblue), e
+centralização do texto.
+
+b)
+.aviso {
+  background-color: #ffdddd;
+  border: 1px dashed red;
+  padding: 10px;
+  margin: 50px auto;
+  width: 400px;
+  text-align: left;
+  color: #990000;
+}
+cor de fundo (#ffdddd),
+borda (vermelha, 1px tracejada),
+preenchimento (10px),
+margem (50px automática para centralizar horizontalmente),
+largura (400px), alinhamento do texto (esquerda), e
+cor do texto (#990000).
+
+Questão 2:
+Recrie a paǵina html abaixo:
+Deverá conter 3 divs diferentes, diferenciadas por cores.
+Cada div deve conter no mínimo 2 elementos dentro dela.
+A div1 deverá conter uma borda de cor preta, com espessura de 10px, a div2 deve ter um padding de 30px.
+
+Div1:
+Borda sólida cor preta 10px. Largura total da tela.
+
+Div2:
+Padding de 30px e cor de fundo. Largura: 300px e altura: 500px
+
+Div3:
+Cor de fundo. Largura: 500px e altura: 300px
+
+Questão 3:
+O que o parâmetro padding define em um elemento CSS?
+Espaçamento interno
+
+Qual propriedade usamos para definir a largura de um elemento?
+width
+
+Qual a função da propriedade border em um layout? Dê um exemplo.
+border define uma borda ao redor de um elemento, podendo especificar a cor,
+espessura e estilo da borda. Por exemplo, `border: 2px solid black;`
+cria uma borda preta sólida com 2 pixels de espessura.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2 - 27/05/2025</title>
+    <style>
+        .div1 {
+            background-color: lightblue;
+            width: 100%;
+            height: 150px;
+            border: 10px solid black;
+            padding: 20px;
+            margin: 30px auto;
+            color: darkblue;
+            text-align: center;
+        }
+
+        .div2 {
+            background-color: #ffdddd;
+            border: 1px dashed red;
+            padding: 30px;
+            margin: 50px auto;
+            width: 300px;
+            height: 500px;
+            text-align: left;
+            color: #990000;
+        }
+
+        .div3 {
+            background-color: #d8bfd8;
+            width: 500px;
+            height: 300px;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="div1">
+            <h2>Eduarda Lindinha</h2>
+            <p>Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda</p>
+        </div>
+
+        <div class="div2">
+            <h2>Eduarda Lindinha</h2>
+            <p>Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda</p>
+        </div>
+
+        <div class="div3">
+            <h2>Eduarda Lindinha</h2>
+            <p>Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha Eduarda Lindinha </p>
+        </div>
+    </div>
+</body>
+</html>
